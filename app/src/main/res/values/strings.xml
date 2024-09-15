@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zemii</string>
+    <string name="title_activity_main">Map</string>
+    <string name="title_activity_bottom_main">BottomMainActivity</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_discuss">Disc.</string>
+    <string name="title_historiq">Hist. des offres</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

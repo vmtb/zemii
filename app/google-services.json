@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "606044822987",
+    "firebase_url": "https://zemii-f4714.firebaseio.com",
+    "project_id": "zemii-f4714",
+    "storage_bucket": "zemii-f4714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606044822987:android:aad2c128a988f3935bea4e",
+        "android_client_info": {
+          "package_name": "com.vibeviroma.zemii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606044822987-6t0sci2qf3rihs50vdj06fb8q91g42ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vibeviroma.zemii",
+            "certificate_hash": "1330abfaccdf8795c80ddc98203cebb6876e61da"
+          }
+        },
+        {
+          "client_id": "606044822987-jarq6nr4m24cugu69e5eqkcgvahkj1fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCogjQcVeHvm2fEkoVOfJehXchEQaRyh7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606044822987-jarq6nr4m24cugu69e5eqkcgvahkj1fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

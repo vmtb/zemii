@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior int getSaveFlags()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_PEEK_HEIGHT, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_FIT_TO_CONTENTS, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_HIDEABLE, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_SKIP_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_ALL, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_NONE}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior int getState()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior saveFlags">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_PEEK_HEIGHT, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_FIT_TO_CONTENTS, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_HIDEABLE, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_SKIP_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_ALL, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_NONE}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior state">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setSaveFlags(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_PEEK_HEIGHT, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_FIT_TO_CONTENTS, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_HIDEABLE, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_SKIP_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_ALL, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_NONE}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setState(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void setStateInternal(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void settleToStatePendingLayout(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior void updateDrawableForTargetState(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.BottomSheetCallback void onStateChanged(android.view.View, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_DRAGGING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_SETTLING, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HIDDEN, com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_HALF_EXPANDED}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.SaveFlags">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_PEEK_HEIGHT, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_FIT_TO_CONTENTS, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_HIDEABLE, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_SKIP_COLLAPSED, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_ALL, com.google.android.material.bottomsheet.BottomSheetBehavior.SAVE_NONE}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.bottomsheet.BottomSheetBehavior.SavedState state">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED, com.google.android.material.bottomsheet.BottomSheetBehavi

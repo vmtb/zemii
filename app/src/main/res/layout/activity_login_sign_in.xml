@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222020"
+    android:id="@+id/root"
+    tools:context=".LoginSignInActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/back_fond1_trans"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/in"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:id="@+id/in"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#BE17379A"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="120dp"
+            android:id="@+id/pop"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo1zemii"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pop"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/pop1"
+            android:layout_marginTop="5dp"
+            android:text="Zemii\nvous souhaite \nla bienvenue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pop1"
+            android:layout_marginTop="30dp"
+            android:layout_above="@+id/denom"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/log"
+                android:text="\tAidez les autres"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_view_agenda_black_24dp"
+                android:drawableStart="@drawable/ic_view_agenda_black_24dp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/track"
+                android:text="\tDes coûts optimaux"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_track_changes_black_24dp"
+                android:drawableStart="@drawable/ic_track_changes_black_24dp"
+                android:singleLine="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\tTrajets biens précis"
+                android:textColor="#fff"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/ic_my_location_black_24dp"
+                android:drawableStart="@drawable/ic_my_location_black_24dp"
+                android:singleLine="true"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="40dp"
+                app:cardCornerRadius="9dp"
+                app:cardBackgroundColor="#faff00"
+                app:cardElevation="5dp"
+                android:id="@+id/btn_connect"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SE CONNECTER"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:singleLine="true"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/denom"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#A4FFFFFF" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Créer un compte"
+                    android:textColor="#A4FFFFFF"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="25dp"
+                    android:drawableRight="@drawable/ic_call_made_black_24dp"
+                    android:drawableEnd="@drawable/ic_call_made_black_24dp"
+                    android:singleLine="true"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="15dp"
+                    android:id="@+id/createAccount"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zemii"
+                    android:textColor="#A4FFFFFF"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="25dp"
+                    android:drawableRight="@drawable/ic_call_made_black_24dp"
+                    android:drawableEnd="@drawable/ic_call_made_black_24dp"
+                    android:singleLine="true"
+                    android:id="@+id/zemi"
+                    android:autoLink="web"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="15dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

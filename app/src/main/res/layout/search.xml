@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back_degrade"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Recherche de nouvelles offres de déplacement"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/start"
+            android:hint="Votre adresse de départ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="10dp"
+            android:textColorHint="#ffffffff"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@drawable/forme_login"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:drawableStart="@drawable/ic_place_black_24dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/end"
+        android:hint="Votre destination (Ecole)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:drawableStart="@drawable/ic_place_black_24dp"
+        android:gravity="center"
+        android:background="@drawable/forme_login"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_phone_btn"
+        android:layout_margin="20dp"
+        android:text="TRACER ET RECHERCHER"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:id="@+id/go"
+        android:textStyle="bold"/>
+
+</LinearLayout>
